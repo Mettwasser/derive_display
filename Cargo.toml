@@ -1,0 +1,10 @@
+[package]
+name = "derive_display"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+derive_display_macro = { path = "derive_display_macro" }
+
+[workspace]
+members = ["derive_display_macro", "."]
